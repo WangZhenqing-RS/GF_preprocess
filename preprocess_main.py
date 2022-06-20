@@ -58,7 +58,5 @@ if __name__ == '__main__':
     # 采用envi自带的dem
     dem_path = r"C:\setup\Exelis\ENVI53\data\GMTED2010.jp2"
     # 一堆压缩包所在文件夹
-    tar_dir = r"E:\WangZhenQing\FGMS-Dataset\GF2_原始数据集\迭部县"
-    tar_dir = r"E:\WangZhenQing\FGMS-Dataset\GF2_原始数据集\喀什市"
-    tar_dir = r"E:\WangZhenQing\FGMS-Dataset\GF2_原始数据集\涞源县"
+    tar_dir = r"E:\WangZhenQing\GF2"
     preprocess(dem_path, tar_dir)
